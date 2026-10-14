@@ -1,0 +1,11 @@
+# Generated delivery and local working material.
+# The standalone HTML is rebuilt by the GitHub Pages workflow because it exceeds
+# GitHub's 100 MB regular-Git file limit.
+dist/
+tmp/
+output/
+
+# Local runtime and editor files.
+node_modules/
+.DS_Store
+Thumbs.db

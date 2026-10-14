@@ -1,0 +1,502 @@
+[
+  {
+    "tag": "base",
+    "row": "4",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "5",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "6",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "7",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "8",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "9",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "10",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "11",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "12",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "13",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "14",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "15",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "16",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "17",
+    "issues": []
+  },
+  {
+    "tag": "revealed",
+    "row": "17",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "18",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "19",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "20",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "21",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "22",
+    "issues": []
+  },
+  {
+    "tag": "revealed",
+    "row": "22",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "23",
+    "issues": []
+  },
+  {
+    "tag": "revealed",
+    "row": "23",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "24",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "25",
+    "issues": []
+  },
+  {
+    "tag": "revealed",
+    "row": "25",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "26",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "28",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "29",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "30",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "31",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "32",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "34",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "35",
+    "issues": []
+  },
+  {
+    "tag": "revealed",
+    "row": "35",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "36",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "38",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "39",
+    "issues": []
+  },
+  {
+    "tag": "matrix-0",
+    "row": "39",
+    "issues": []
+  },
+  {
+    "tag": "matrix-1",
+    "row": "39",
+    "issues": []
+  },
+  {
+    "tag": "matrix-2",
+    "row": "39",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "44",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "45",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "49",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "50",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "51",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "52",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "53",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "54",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "55",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "57",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "58",
+    "issues": []
+  },
+  {
+    "tag": "matrix-0",
+    "row": "58",
+    "issues": []
+  },
+  {
+    "tag": "matrix-1",
+    "row": "58",
+    "issues": []
+  },
+  {
+    "tag": "matrix-2",
+    "row": "58",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "59",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "60",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "61",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "62",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "63",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "64",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "65",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "66",
+    "issues": []
+  },
+  {
+    "tag": "revealed",
+    "row": "66",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "67",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "68",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "69",
+    "issues": []
+  },
+  {
+    "tag": "matrix-0",
+    "row": "69",
+    "issues": []
+  },
+  {
+    "tag": "matrix-1",
+    "row": "69",
+    "issues": []
+  },
+  {
+    "tag": "matrix-2",
+    "row": "69",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "70",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "71",
+    "issues": []
+  },
+  {
+    "tag": "matrix-0",
+    "row": "71",
+    "issues": []
+  },
+  {
+    "tag": "matrix-1",
+    "row": "71",
+    "issues": []
+  },
+  {
+    "tag": "matrix-2",
+    "row": "71",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "72",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "73",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "74",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "75",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "76",
+    "issues": []
+  },
+  {
+    "tag": "matrix-0",
+    "row": "76",
+    "issues": []
+  },
+  {
+    "tag": "matrix-1",
+    "row": "76",
+    "issues": []
+  },
+  {
+    "tag": "matrix-2",
+    "row": "76",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "77",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "78",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "79",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "80",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "81",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "82",
+    "issues": []
+  },
+  {
+    "tag": "matrix-0",
+    "row": "82",
+    "issues": []
+  },
+  {
+    "tag": "matrix-1",
+    "row": "82",
+    "issues": []
+  },
+  {
+    "tag": "matrix-2",
+    "row": "82",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "83",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "85",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "86",
+    "issues": []
+  },
+  {
+    "tag": "matrix-0",
+    "row": "86",
+    "issues": []
+  },
+  {
+    "tag": "matrix-1",
+    "row": "86",
+    "issues": []
+  },
+  {
+    "tag": "matrix-2",
+    "row": "86",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "87",
+    "issues": []
+  },
+  {
+    "tag": "base",
+    "row": "88",
+    "issues": []
+  }
+]

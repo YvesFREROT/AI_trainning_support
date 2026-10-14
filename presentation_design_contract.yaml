@@ -1,0 +1,25 @@
+version: 1.0
+canvas: [1920, 1080]
+font_display: Source Serif 4
+font_data: Libre Franklin
+paper: '#F7F3EA'
+ink: '#171717'
+accent: '#B4242A'
+blue: '#2D6178'
+hairline: '#D8D0C4'
+slide_count: 118
+sources_of_truth:
+  content: Google Sheet (URL in README.md), Pasted text.txt for S045-S052, and methodologie_ia_18_slides_codex.md for S092-S109
+  generated_content: deck.json
+  design_and_maintenance: BIBLE_PRESENTATION_IA_V1.md
+rules:
+  deterministic_renderer: true
+  offline_assets: true
+  projection_exhaustive_matrix: false
+  matrix_max_visible_actors: 6
+  participant_full_content: true
+  exercise_answers_initially_hidden: true
+  invent_data: false
+  river_master_shared: [S038, S061, S063, S075, S080, S085]
+  factual_sources_clickable: true
+  update_mode: diff_patch

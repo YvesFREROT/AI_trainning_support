@@ -1,0 +1,35 @@
+{
+  "slides": 73,
+  "unique_visible_slide_each_step": true,
+  "javascript_errors": 0,
+  "external_render_requests": 0,
+  "out_of_canvas": 0,
+  "svg_collisions": 0,
+  "matrix_pages_checked": 21,
+  "exercise_reveals_checked": true,
+  "viewport_checks": [
+    {
+      "w": 1366,
+      "h": 768,
+      "fit": true
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "fit": true
+    },
+    {
+      "w": 768,
+      "h": 1024,
+      "fit": true
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "fit": true
+    }
+  ],
+  "build": "passed",
+  "structural_validation": "passed",
+  "html_sha256": "821028224008337f9def61381554e9a28ea10ce5f4a24d49e72daf11ba69f553"
+}

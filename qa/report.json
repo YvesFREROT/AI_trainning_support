@@ -1,0 +1,645 @@
+{
+  "slides": 73,
+  "errors": [],
+  "externalRequests": [],
+  "bounds": [
+    {
+      "row": "4",
+      "visible": [
+        "S004"
+      ],
+      "issues": [],
+      "images": [
+        [
+          1672,
+          941,
+          true
+        ]
+      ]
+    },
+    {
+      "row": "5",
+      "visible": [
+        "S005"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "6",
+      "visible": [
+        "S006"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "7",
+      "visible": [
+        "S007"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "8",
+      "visible": [
+        "S008"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "9",
+      "visible": [
+        "S009"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "10",
+      "visible": [
+        "S010"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "11",
+      "visible": [
+        "S011"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "12",
+      "visible": [
+        "S012"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "13",
+      "visible": [
+        "S013"
+      ],
+      "issues": [],
+      "images": [
+        [
+          1200,
+          675,
+          true
+        ]
+      ]
+    },
+    {
+      "row": "14",
+      "visible": [
+        "S014"
+      ],
+      "issues": [],
+      "images": [
+        [
+          1130,
+          1600,
+          true
+        ]
+      ]
+    },
+    {
+      "row": "15",
+      "visible": [
+        "S015"
+      ],
+      "issues": [],
+      "images": [
+        [
+          1440,
+          810,
+          true
+        ]
+      ]
+    },
+    {
+      "row": "16",
+      "visible": [
+        "S016"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "17",
+      "visible": [
+        "S017"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "18",
+      "visible": [
+        "S018"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "19",
+      "visible": [
+        "S019"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "20",
+      "visible": [
+        "S020"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "21",
+      "visible": [
+        "S021"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "22",
+      "visible": [
+        "S022"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "23",
+      "visible": [
+        "S023"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "24",
+      "visible": [
+        "S024"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "25",
+      "visible": [
+        "S025"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "26",
+      "visible": [
+        "S026"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "28",
+      "visible": [
+        "S028"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "29",
+      "visible": [
+        "S029"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "30",
+      "visible": [
+        "S030"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "31",
+      "visible": [
+        "S031"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "32",
+      "visible": [
+        "S032"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "34",
+      "visible": [
+        "S034"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "35",
+      "visible": [
+        "S035"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "36",
+      "visible": [
+        "S036"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "38",
+      "visible": [
+        "S038"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "39",
+      "visible": [
+        "S039"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "44",
+      "visible": [
+        "S044"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "45",
+      "visible": [
+        "S045"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "49",
+      "visible": [
+        "S049"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "50",
+      "visible": [
+        "S050"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "51",
+      "visible": [
+        "S051"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "52",
+      "visible": [
+        "S052"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "53",
+      "visible": [
+        "S053"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "54",
+      "visible": [
+        "S054"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "55",
+      "visible": [
+        "S055"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "57",
+      "visible": [
+        "S057"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "58",
+      "visible": [
+        "S058"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "59",
+      "visible": [
+        "S059"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "60",
+      "visible": [
+        "S060"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "61",
+      "visible": [
+        "S061"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "62",
+      "visible": [
+        "S062"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "63",
+      "visible": [
+        "S063"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "64",
+      "visible": [
+        "S064"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "65",
+      "visible": [
+        "S065"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "66",
+      "visible": [
+        "S066"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "67",
+      "visible": [
+        "S067"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "68",
+      "visible": [
+        "S068"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "69",
+      "visible": [
+        "S069"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "70",
+      "visible": [
+        "S070"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "71",
+      "visible": [
+        "S071"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "72",
+      "visible": [
+        "S072"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "73",
+      "visible": [
+        "S073"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "74",
+      "visible": [
+        "S074"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "75",
+      "visible": [
+        "S075"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "76",
+      "visible": [
+        "S076"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "77",
+      "visible": [
+        "S077"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "78",
+      "visible": [
+        "S078"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "79",
+      "visible": [
+        "S079"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "80",
+      "visible": [
+        "S080"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "81",
+      "visible": [
+        "S081"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "82",
+      "visible": [
+        "S082"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "83",
+      "visible": [
+        "S083"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "85",
+      "visible": [
+        "S085"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "86",
+      "visible": [
+        "S086"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "87",
+      "visible": [
+        "S087"
+      ],
+      "issues": [],
+      "images": []
+    },
+    {
+      "row": "88",
+      "visible": [
+        "S088"
+      ],
+      "issues": [],
+      "images": []
+    }
+  ],
+  "interactions": {
+    "nav": 1,
+    "filtered": 2,
+    "before": false,
+    "after": true,
+    "detail": 3562,
+    "matrixPage": "Acteurs 5–8 / 11"
+  },
+  "responsive": [
+    {
+      "w": 1366,
+      "h": 768,
+      "fit": true
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "fit": true
+    },
+    {
+      "w": 768,
+      "h": 1024,
+      "fit": true
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "fit": true
+    }
+  ]
+}

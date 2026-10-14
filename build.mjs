@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url));
+const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const d=JSON.parse(read('deck.json'));
+const sourceRows=d.slides.map(s=>s.source_row);
+const template=read('template.html').replaceAll('__SLIDE_COUNT__',String(d.slides.length)).replaceAll('__SLIDE_MAX__',String(d.slides.length)).replaceAll('__SOURCE_MIN__',`S${String(Math.min(...sourceRows)).padStart(3,'0')}`).replaceAll('__SOURCE_MAX__',`S${String(Math.max(...sourceRows)).padStart(3,'0')}`),css=read('style.css')+'\n'+read('resurgence.css'),js=read('renderer.js'),fonts=read('assets/fonts.css');
+const serialize=v=>JSON.stringify(v).replaceAll('</','<\\/');
+const compose=(f,data)=>template.replace('__FONTS__',f).replace('__CSS__',css).replace('__DATA__',serialize(data)).replace('__JS__',js);
+const html=compose(fonts,d);
+const dist=path.join(root,'dist');fs.mkdirSync(dist,{recursive:true});
+for(const legacy of [path.join(root,'index.html'),path.join(dist,'index.html'),path.join(dist,'Presentation_IA_complete_actualisee.html')])fs.rmSync(legacy,{force:true});
+fs.cpSync(path.join(root,'assets'),path.join(root,'dist/assets'),{recursive:true});
+const launchAssets=new Set(d.slides.map(s=>s.launch?.asset).filter(Boolean));
+const launchMimes={m4a:'audio/mp4',mp3:'audio/mpeg',wav:'audio/wav',pdf:'application/pdf',html:'text/html;charset=utf-8',htm:'text/html;charset=utf-8',txt:'text/plain;charset=utf-8',md:'text/markdown;charset=utf-8',csv:'text/csv;charset=utf-8',json:'application/json;charset=utf-8',pptx:'application/vnd.openxmlformats-officedocument.presentationml.presentation',xlsx:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',docx:'application/vnd.openxmlformats-officedocument.wordprocessingml.document'};
+const embeds={};for(const name of fs.readdirSync(path.join(root,'assets'))){const ext=path.extname(name).slice(1).toLowerCase(),visual=/^(jpg|png|webp|svg)$/.test(ext);if(visual||launchAssets.has(name)){const mime=ext==='jpg'?'image/jpeg':ext==='svg'?'image/svg+xml':visual?'image/'+ext:(launchMimes[ext]||'application/octet-stream');embeds[name]='data:'+mime+';base64,'+fs.readFileSync(path.join(root,'assets',name)).toString('base64');}}
+const inlineFonts=fonts.replace(/url\((assets\/[^)]+)\)/g,(_,f)=>'url(data:font/ttf;base64,'+fs.readFileSync(path.join(root,f)).toString('base64')+')');
+fs.writeFileSync(path.join(dist,'Presentation_IA_complete.html'),compose(inlineFonts,{...d,assets:embeds}));
+console.log(`${d.slides.length} slides, un unique HTML autonome construit.`);
