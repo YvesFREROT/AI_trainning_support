@@ -12,7 +12,7 @@ Le lien devient consultable dès que le workflow « Deploy training to GitHub Pa
 
 ## Utilisation locale
 
-Ouvrir dist/Presentation_IA_complete.html dans un navigateur. C’est l’unique version de présentation à utiliser : elle contient toutes les images et polices dans un seul fichier. Aucun CDN ni requête distante n’est nécessaire au rendu. Les liens vers les sources s’ouvrent sur le web.
+Ouvrir dist/Presentation_IA_complete.html dans un navigateur. C’est l’unique version de présentation à utiliser : elle contient toutes les images et polices dans un seul fichier. Le tutoriel Optimum Prompt de la slide S078 est un fichier séparé, copié dans dist/ à côté de la présentation lors du build ; conserver les deux fichiers ensemble pour une utilisation locale. Aucun CDN ni requête distante n’est nécessaire au rendu. Les liens vers les autres sources s’ouvrent sur le web.
 
 Flèches, Espace ou PageDown/PageUp : navigation. F : plein écran. P : participant. N : formateur. O : sommaire. L : pointeur. B : masquer. Échap : fermer le panneau. Les réponses des exercices apparaissent progressivement. Le sommaire recherche un titre, un sujet ou un identifiant Sxxx. Les comparatifs affichent jusqu’à six acteurs par page et les onze acteurs en détail.
 

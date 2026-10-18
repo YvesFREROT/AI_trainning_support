@@ -4787,7 +4787,7 @@
       "assistant_note": "Répond avec une méthode et un contexte adaptés à la mission.",
       "tutorial_link": {
         "label": "Ouvrir le tutoriel Optimum Prompt",
-        "url": "file:///C:/Users/Utilisateur/Downloads/tutoriel_skill_optimum_prompt.html"
+        "url": "tutoriel_skill_optimum_prompt.html"
       },
       "bottom": "Les instructions disent comment agir. Les connaissances apportent ce qu’il faut savoir.",
       "source_title": "CONSTRUIRE SON ASSISTANT",
@@ -4797,8 +4797,8 @@
       "section": "Contexte et assistance",
       "sources": [
         {
-          "label": "Tutoriel local · Optimum Prompt",
-          "url": "file:///C:/Users/Utilisateur/Downloads/tutoriel_skill_optimum_prompt.html"
+          "label": "Tutoriel · Optimum Prompt",
+          "url": "tutoriel_skill_optimum_prompt.html"
         }
       ],
       "public_links": [],

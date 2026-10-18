@@ -12,6 +12,7 @@ const html=compose(fonts,d);
 const dist=path.join(root,'dist');fs.mkdirSync(dist,{recursive:true});
 for(const legacy of [path.join(root,'index.html'),path.join(dist,'index.html'),path.join(dist,'Presentation_IA_complete_actualisee.html')])fs.rmSync(legacy,{force:true});
 fs.cpSync(path.join(root,'assets'),path.join(root,'dist/assets'),{recursive:true});
+fs.copyFileSync(path.join(root,'tutoriel_skill_optimum_prompt.html'),path.join(dist,'tutoriel_skill_optimum_prompt.html'));
 const launchAssets=new Set(d.slides.map(s=>s.launch?.asset).filter(Boolean));
 const launchMimes={m4a:'audio/mp4',mp3:'audio/mpeg',wav:'audio/wav',pdf:'application/pdf',html:'text/html;charset=utf-8',htm:'text/html;charset=utf-8',txt:'text/plain;charset=utf-8',md:'text/markdown;charset=utf-8',csv:'text/csv;charset=utf-8',json:'application/json;charset=utf-8',pptx:'application/vnd.openxmlformats-officedocument.presentationml.presentation',xlsx:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',docx:'application/vnd.openxmlformats-officedocument.wordprocessingml.document'};
 const embeds={};for(const name of fs.readdirSync(path.join(root,'assets'))){const ext=path.extname(name).slice(1).toLowerCase(),visual=/^(jpg|png|webp|svg)$/.test(ext);if(visual||launchAssets.has(name)){const mime=ext==='jpg'?'image/jpeg':ext==='svg'?'image/svg+xml':visual?'image/'+ext:(launchMimes[ext]||'application/octet-stream');embeds[name]='data:'+mime+';base64,'+fs.readFileSync(path.join(root,'assets',name)).toString('base64');}}
