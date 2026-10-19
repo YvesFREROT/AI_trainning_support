@@ -3584,8 +3584,10 @@
       "layout": "matrix",
       "topic": "profile",
       "matrix_page_sizes": [
-        5,
-        6
+        3,
+        3,
+        3,
+        2
       ],
       "profile_guides": [
         {
