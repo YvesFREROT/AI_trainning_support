@@ -1,0 +1,39 @@
+{
+  "format": "atelier-veille-sauvegarde",
+  "version": 1,
+  "cree_le": "2026-10-19T18:08:03.416Z",
+  "empreinte": "ebf46b8ab787769323f8d386d8dcf116293842a63a5ee945b2ce559514c02438",
+  "propositions": [
+    {
+      "id": "exemple-fictif-atelier-local",
+      "document": {
+        "id": "exemple-fictif-atelier-local",
+        "titre": "Exemple fictif : une nouveauté à examiner",
+        "source": "https://example.org/",
+        "statut": "en_attente",
+        "conditions": "Exemple inventé pour tester l’outil. Aucune information fournisseur ne doit en être déduite.",
+        "fournisseur": "Exemple fictif",
+        "exemple_fictif": true,
+        "date_consultation": "démonstration",
+        "modifications_tableau": [
+          {
+            "apres": "Valeur fictive après",
+            "avant": "Valeur fictive avant",
+            "cellule": "Exemple"
+          }
+        ],
+        "modifications_presentation": [
+          {
+            "apres": "Nouveau texte fictif",
+            "avant": "Ancien texte fictif",
+            "slide": "S000",
+            "description": "Exemple de diapositive"
+          }
+        ]
+      },
+      "empreinte": "172659a5e2d85a9508b42444fc976f6ec53b44ec2a34497013592d66b92ab8a2",
+      "cree_le": "2026-10-19T18:06:23.605Z",
+      "avis": []
+    }
+  ]
+}
