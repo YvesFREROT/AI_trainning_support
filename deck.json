@@ -7458,7 +7458,408 @@
         "Vérifié le": "27/09/2026",
         "Sources officielles": "https://support.microsoft.com/en-us/microsoft-365-copilot/how-web-search-works-in-microsoft-365-copilot-chat-and-agents\nhttps://support.microsoft.com/en-us/microsoft-copilot/using-image-generation-in-microsoft-copilot\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/create-a-video-with-the-microsoft-365-copilot-app\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/customize-how-microsoft-365-copilot-responds-to-you\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/build-your-own-agent-with-microsoft-365-copilot\nhttps://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder\nhttps://support.microsoft.com/en-us/sharepoint/copilot-in-sharepoint/create-an-agent-in-sharepoint\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-microsoft-365-copilot-notebooks\nhttps://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/use-cowork\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/use-researcher-in-microsoft-365-copilot-notebooks\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-cowork\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-workflows-in-microsoft-365-copilot\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/tasks-inferences\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-cowork\nhttps://support.microsoft.com/en-us/office/365-copilot-app/get-started-with-word-excel-and-powerpoint-agents-in-microsoft-365-copilot\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/file-formats-supported-by-microsoft-365-copilot"
       }
-    ]
+    ],
+    "matrix_summaries": {
+      "profile": {
+        "OpenAI": [
+          "Oui. Instructions et mémoire de compte.",
+          "Rôle, ton et format des nouvelles réponses.",
+          "Les instructions guident le style. Elles ne vérifient pas les faits."
+        ],
+        "Google": [
+          "Oui, avec un compte Google personnel.",
+          "Instructions appliquées aux conversations Gemini.",
+          "Fonction indisponible pour les comptes Workspace et dans les Gems."
+        ],
+        "Anthropic": [
+          "Oui. Préférences de profil et styles.",
+          "Contexte général, ton et format des réponses.",
+          "Les instructions de projet ne valent que dans ce projet."
+        ],
+        "Meta": [
+          "Mémoire contextuelle, pas de profil de réponse.",
+          "Meta AI peut retenir des informations partagées.",
+          "Aucun champ documenté pour imposer partout un ton ou un format."
+        ],
+        "Perplexity": [
+          "Pas de profil global. Instructions par Project.",
+          "Règles et format pour les requêtes de ce Project.",
+          "Ces instructions ne suivent pas vos recherches hors du Project."
+        ],
+        "xAI": [
+          "Profil de réponse global non documenté.",
+          "Aucun réglage utilisateur vérifié à présenter.",
+          "Ne supposez pas qu’une préférence s’applique à chaque conversation."
+        ],
+        "Mistral AI": [
+          "Oui. Custom Instructions dans Vibe Work.",
+          "Rôle, domaine, ton et format pour les nouvelles tâches.",
+          "Une Skill ou un Project peut ajouter des règles plus précises."
+        ],
+        "DeepSeek": [
+          "Pas de profil Chat documenté.",
+          "En API, le développeur envoie un prompt système.",
+          "Un prompt système n’est pas un réglage sauvegardé dans Chat."
+        ],
+        "Z.ai / Zhipu": [
+          "Pas de profil Chat documenté.",
+          "En API, le développeur définit le message système.",
+          "Cette configuration concerne une application, pas un compte utilisateur."
+        ],
+        "Alibaba / Qwen": [
+          "Pas de profil Chat documenté.",
+          "Un agent peut recevoir ses propres instructions.",
+          "La configuration d’un agent ne devient pas un profil global de Qwen Chat."
+        ],
+        "Microsoft": [
+          "Oui. Memory et Custom Instructions.",
+          "Préférences, ton et format des réponses Copilot.",
+          "Memory et instructions sont deux réglages distincts, selon licence."
+        ]
+      },
+      "assistant": {
+        "OpenAI": [
+          "GPTs / skills",
+          "Assistant ou procédure",
+          "GPT = assistant. Skill = procédure. Transition vers plugins en Enterprise : droits et calendrier à vérifier."
+        ],
+        "Google": [
+          "Gems / skills",
+          "Assistant ou instructions",
+          "Transition vers les skills : dates et fonctions selon le compte."
+        ],
+        "Anthropic": [
+          "Skills / Projects",
+          "Tâche ou contexte",
+          "Projet = contexte. Skill = tâche réutilisable."
+        ],
+        "Meta": [
+          "AI Studio",
+          "Persona ou création",
+          "Les fonctions varient selon le produit et le pays."
+        ],
+        "Perplexity": [
+          "Project / Computer Skill",
+          "Contexte ou procédure",
+          "Projet = mission. Outil = tâche à exécuter."
+        ],
+        "xAI": [
+          "Grok Build / workflows",
+          "Agent ou workflow",
+          "Vérifiez : chat, outil de code ou workflow."
+        ],
+        "Mistral AI": [
+          "Work Skill / Code Agent",
+          "Procédure ou agent",
+          "Une skill et un agent ne sont pas la même chose."
+        ],
+        "DeepSeek": [
+          "Votre application API",
+          "Assistant sur mesure",
+          "Vous définissez les consignes et les outils."
+        ],
+        "Z.ai / Zhipu": [
+          "Votre agent / MCP",
+          "Assistant et outils",
+          "Les droits d’accès et outils sont à définir."
+        ],
+        "Alibaba / Qwen": [
+          "Qwen-Agent / Qwen Code",
+          "Framework ou agent",
+          "Framework = construction. Agent = exécution."
+        ],
+        "Microsoft": [
+          "Agent Builder / Copilot Studio",
+          "Assistant ou workflow",
+          "Choisissez : répondre, chercher, agir ou automatiser."
+        ]
+      },
+      "project": {
+        "OpenAI": [
+          "Projects",
+          "Chats, fichiers et instructions",
+          "Contexte d’une mission"
+        ],
+        "Google": [
+          "Gemini Notebooks",
+          "Sources et échanges de mission",
+          "Distinct des Gems et skills"
+        ],
+        "Anthropic": [
+          "Projects",
+          "Chats et connaissances",
+          "Bêta limitée : fils parallèles ; disponibilité à vérifier."
+        ],
+        "Meta": [
+          "Meta AI / AI Studio",
+          "Chat ou persona",
+          "Projet métier non documenté"
+        ],
+        "Perplexity": [
+          "Projects (ex-Spaces)",
+          "Mission et sources",
+          "Contexte selon offre"
+        ],
+        "xAI": [
+          "Grok Business Workspace",
+          "Périmètre de compte / équipe",
+          "Pas un projet de mission"
+        ],
+        "Mistral AI": [
+          "Vibe Work Projects",
+          "Chats, instructions, fichiers",
+          "Dossier de mission"
+        ],
+        "DeepSeek": [
+          "Votre application",
+          "Historique, stockage, RAG",
+          "À construire"
+        ],
+        "Z.ai / Zhipu": [
+          "Votre application",
+          "Données et orchestration",
+          "À construire"
+        ],
+        "Alibaba / Qwen": [
+          "Votre application / Qwen-Agent",
+          "Mémoire, RAG et outils",
+          "Pas de projet Studio confirmé"
+        ],
+        "Microsoft": [
+          "Copilot Notebooks / Cowork Projects",
+          "Corpus et travail de mission",
+          "Notebook ≠ agent"
+        ]
+      },
+      "agent": {
+        "OpenAI": [
+          "Tâches planifiées / Work / Codex",
+          "Tâches planifiées : rappels et suivis. Work : dossiers, fichiers et missions. Codex : écrit, relit et corrige du code.",
+          "L’accès aux fichiers dépend du type de tâche et de l’environnement. Une tâche locale peut utiliser son projet configuré."
+        ],
+        "Google": [
+          "Deep Research / Spark / Actions programmées",
+          "Deep Research enquête et rédige un rapport. Spark suit une consigne ou un événement. Les Actions programmées lancent un rappel ou une action.",
+          "Spark n’est pas disponible dans l’EEE. Les autres fonctions dépendent du compte et du forfait."
+        ],
+        "Anthropic": [
+          "Research / Cowork / Claude Code",
+          "Research prépare une étude. Cowork réalise une mission sur des fichiers et services reliés. Claude Code travaille sur un projet de code.",
+          "Certaines tâches récurrentes tournent dans le cloud ; accès selon compte et environnement. Claude Code sert au développement."
+        ],
+        "Meta": [
+          "Muse / Meta AI",
+          "Muse prépare une démarche, cherche des informations et peut aider avec les e-mails et l’agenda.",
+          "Muse est déployé dans certains pays seulement. Il demande votre accord avant certaines actions, comme envoyer un e-mail."
+        ],
+        "Perplexity": [
+          "Computer / Deep Research",
+          "Computer mène une recherche, prépare des documents ou des fichiers et peut suivre une tâche en arrière-plan.",
+          "L’accès, le nombre de tâches et les connexions disponibles dépendent du forfait."
+        ],
+        "xAI": [
+          "Grok Bot / Grok Build",
+          "Grok Bot peut faire une mission sur le Web et vos fichiers; une routine peut la répéter. Grok Build aide à écrire ou corriger du code.",
+          "Les accès et les tâches répétées dépendent du forfait et des outils reliés."
+        ],
+        "Mistral AI": [
+          "Vibe Work / Vibe Code",
+          "Work prépare des recherches, documents et suivis planifiés. Code modifie et vérifie un projet logiciel.",
+          "Les tâches planifiées sont en préversion. Certaines actions demandent votre accord."
+        ],
+        "DeepSeek": [
+          "DeepSeek Harness / DeepSeek Chat",
+          "Harness réunit des outils pour rechercher, manipuler des fichiers et exécuter du code. DeepSeek Chat répond dans une conversation.",
+          "Harness est en aperçu public; certaines fonctions sont expérimentales. Il est distinct de DeepSeek Chat."
+        ],
+        "Z.ai / Zhipu": [
+          "AutoGLM / AutoClaw / ZCode",
+          "AutoGLM et AutoClaw visent les tâches en plusieurs étapes. ZCode aide à développer un logiciel.",
+          "Ce sont des outils distincts du chat Z.ai; leurs accès et réglages se font séparément."
+        ],
+        "Alibaba / Qwen": [
+          "Qwen Code / Qwen Chat",
+          "Qwen Code modifie un projet logiciel et peut confier des étapes à des assistants spécialisés. Il peut répéter des contrôles pendant une session.",
+          "Les tâches répétées s’arrêtent quand Qwen Code est fermé. Ces outils sont distincts de Qwen Chat."
+        ],
+        "Microsoft": [
+          "Researcher / Analyst / Cowork / Workflows",
+          "Researcher cherche et résume. Analyst explore des données. Cowork réalise une mission dans Microsoft 365. Workflows répètent une action ou la lancent au bon moment.",
+          "Les outils disponibles dépendent de la licence et des accès Microsoft 365. Certaines actions demandent votre accord."
+        ]
+      },
+      "vehicle": {
+        "OpenAI": [
+          "ChatGPT / Work / Codex",
+          "Service et poste de travail",
+          "Périmètres différents"
+        ],
+        "Google": [
+          "Gemini / Workspace",
+          "Assistant et suite de travail",
+          "Offre et droits"
+        ],
+        "Anthropic": [
+          "Claude / Cowork / Code",
+          "Assistant et environnement de travail",
+          "Surface choisie"
+        ],
+        "Meta": [
+          "Meta AI",
+          "Assistant dans les apps Meta",
+          "Périmètre selon déploiement"
+        ],
+        "Perplexity": [
+          "Perplexity / Computer",
+          "Recherche et travail",
+          "Offre"
+        ],
+        "xAI": [
+          "Grok / Build",
+          "Assistant et agent de code",
+          "Surface"
+        ],
+        "Mistral AI": [
+          "Vibe Work / Code",
+          "Travail et développement",
+          "Workspace"
+        ],
+        "DeepSeek": [
+          "DeepSeek Chat / API",
+          "Chat et moteur API",
+          "Système à assembler"
+        ],
+        "Z.ai / Zhipu": [
+          "Z.ai / AutoClaw / API",
+          "Chat, agent et moteurs",
+          "Produits distincts"
+        ],
+        "Alibaba / Qwen": [
+          "Qwen Studio / Code / Agent",
+          "Chat, code et framework",
+          "Écosystème à distinguer"
+        ],
+        "Microsoft": [
+          "Copilot / Microsoft 365",
+          "Assistant d’entreprise",
+          "Licences et gouvernance"
+        ]
+      },
+      "connector": {
+        "OpenAI": [
+          "Connected apps",
+          "Compte connecté et permissions",
+          "Accès ≠ approbation d’action"
+        ],
+        "Google": [
+          "Connected Apps / Workspace",
+          "Compte Google et périmètre",
+          "Services autorisés"
+        ],
+        "Anthropic": [
+          "Connectors / MCP",
+          "Authentification et outils",
+          "Permissions et contexte"
+        ],
+        "Meta": [
+          "Intégrations Meta",
+          "Contexte des apps Meta",
+          "Catalogue métier non confirmé"
+        ],
+        "Perplexity": [
+          "Connecteurs / MCP",
+          "App ou serveur configuré",
+          "Droits de la source"
+        ],
+        "xAI": [
+          "Connecteurs Grok",
+          "Comptes reliés",
+          "Périmètres autorisés"
+        ],
+        "Mistral AI": [
+          "Vibe Work Connectors",
+          "Règles du Workspace",
+          "Délégation révocable"
+        ],
+        "DeepSeek": [
+          "Tool calling API",
+          "Application exécute l’appel",
+          "Contrôle à construire"
+        ],
+        "Z.ai / Zhipu": [
+          "API / MCP",
+          "Orchestrateur et outils",
+          "Permissions à construire"
+        ],
+        "Alibaba / Qwen": [
+          "Qwen-Agent / MCP",
+          "Outils de l’application",
+          "Identité et contrôle à construire"
+        ],
+        "Microsoft": [
+          "Copilot / Graph Connectors",
+          "Droits Microsoft 365",
+          "Indexation ≠ nouveaux droits"
+        ]
+      },
+      "lexicon": {
+        "OpenAI": [
+          "Recherche / Recherche approfondie",
+          "Import de fichiers / Analyse de données",
+          "Codex / Analyse de données"
+        ],
+        "Google": [
+          "Deep Research",
+          "Ajouter des fichiers / Canvas",
+          "Canvas"
+        ],
+        "Anthropic": [
+          "Web search / Research",
+          "Files / Artifacts",
+          "Claude Code / Code execution"
+        ],
+        "Meta": [
+          "Agent et navigateur dans Muse",
+          "Connectors dans Muse",
+          "Surface dédiée non confirmée"
+        ],
+        "Perplexity": [
+          "Recherche / Pro Search",
+          "File and analysis",
+          "Code interpreter"
+        ],
+        "xAI": [
+          "DeepSearch / web search",
+          "Grok for Word / Excel / PowerPoint",
+          "Grok Build"
+        ],
+        "Mistral AI": [
+          "Web search / Deep Research",
+          "Upload Files / Libraries / Canvas",
+          "Code / Code Interpreter"
+        ],
+        "DeepSeek": [
+          "Web search",
+          "File upload & text extraction",
+          "Expert Mode · bac dédié non confirmé"
+        ],
+        "Z.ai / Zhipu": [
+          "Agent Mode · libellé web non confirmé",
+          "Agent Mode",
+          "ZCode / GLM Coding Plan"
+        ],
+        "Alibaba / Qwen": [
+          "Search / Deep Research",
+          "Multimodal Understanding / Artifacts",
+          "Qwen Code / Web Dev"
+        ],
+        "Microsoft": [
+          "Recherche (Researcher)",
+          "Blocs-notes Copilot / Analyst",
+          "Analyst / GitHub Copilot"
+        ]
+      }
+    }
   },
   "source_registry": {
     "stanford26": {

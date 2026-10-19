@@ -6,6 +6,16 @@ const root=path.dirname(fileURLToPath(import.meta.url));
 const d=JSON.parse(fs.readFileSync(path.join(root,'deck.json'),'utf8'));
 assert.equal(d.slides.length,118);assert.equal(new Set(d.slides.map(s=>s.slide_id)).size,118);
 for(const s of d.slides){assert(s.title&&s.original&&s.speaker&&s.layout);assert.equal(s.slide_id,'S'+String(s.source_row).padStart(3,'0'));for(const key of ['asset','image'])if(s[key])assert(fs.existsSync(path.join(root,'assets',s[key])));if(s.launch?.asset)assert(fs.existsSync(path.join(root,'assets',s.launch.asset)));for(const r of [...s.sources,...(s.tutorial_link?[s.tutorial_link]:[])]){assert(typeof r.url==='string'&&r.url.length>0);if(!/^https:\/\//.test(r.url)){assert(/^[a-zA-Z0-9_.-]+\.html$/.test(r.url),`Lien local invalide : ${r.url}`);assert(fs.existsSync(path.join(root,'dist',r.url)),`Fichier lié absent du site : ${r.url}`);}}}
+const providers=d.actors.rows.map(row=>row[0]);assert.equal(new Set(providers).size,providers.length,'Noms d’acteurs répétés');
+for(const topic of ['profile','assistant','project','agent','vehicle','connector','lexicon']){
+  const summaries=d.actors.matrix_summaries?.[topic];assert(summaries,`Comparatif absent : ${topic}`);
+  assert.deepEqual(Object.keys(summaries).sort(),[...providers].sort(),`Acteurs incomplets ou inconnus : ${topic}`);
+  for(const provider of providers){const cells=summaries[provider];assert(Array.isArray(cells)&&cells.length===3&&cells.every(cell=>typeof cell==='string'&&cell.trim()),`Résumé incomplet : ${topic} / ${provider}`);}
+}
+for(const s of d.slides.filter(s=>s.layout==='matrix')){
+  assert(d.actors.matrix_summaries[s.topic],`Comparatif inconnu : ${s.slide_id} / ${s.topic}`);
+  if(s.matrix_page_sizes)assert(s.matrix_page_sizes.every(n=>Number.isInteger(n)&&n>0)&&s.matrix_page_sizes.reduce((a,b)=>a+b,0)===providers.length,`Pagination invalide : ${s.slide_id}`);
+}
 const html=fs.readFileSync(path.join(root,'dist','Presentation_IA_complete.html'),'utf8');assert(!html.includes('__DATA__'));assert(!/<(?:script|link)[^>]+(?:src|href)=["']https?:/i.test(html));
 const audioSlide=d.slides.find(s=>s.launch?.kind==='audio');if(audioSlide){assert(html.includes(audioSlide.launch.asset));assert(html.includes('data:audio/mp4;base64,'));}
 const meta=JSON.parse(fs.readFileSync(path.join(root,'metadata.json'),'utf8'));assert.equal(meta.type,'tutorial');assert.equal(meta.language,'fr');
