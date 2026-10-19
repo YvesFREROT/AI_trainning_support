@@ -3647,13 +3647,17 @@
       "bottom": "",
       "source_title": "COMPARATIF ACTEURS : PERSONNALISER LA PERSONNALITÉ ET LE PROFIL",
       "speaker": "Question à poser : que peut-on rendre durable — ton, rôle, règles, mémoire, vitesse — avant même le prompt du jour ?",
-      "original": "SLIDE — COMPARATIF ACTEURS : PERSONNALISER LA PERSONNALITÉ ET LE PROFIL\n\nQuestion à poser : que peut-on rendre durable — ton, rôle, règles, mémoire, vitesse — avant même le prompt du jour ?\n\n— OpenAI / ChatGPT : mémoire, instructions personnalisées, personnalité, règles de projet ; choix modèle/vitesse/raisonnement selon offre.\n— Google / Gemini : instructions, historique, apps connectées et Gems ; vitesse surtout pilotée par le modèle.\n— Anthropic / Claude : styles, préférences et instructions de projet ; réglages de modèle selon offre.\n— Meta / Meta AI : personnalisation via profil, mémoire et contexte Meta, avec un périmètre variable.\n— Perplexity : profil, préférences, Spaces et instructions de travail ; peu de réglages de délai durables.\n— xAI / Grok : Custom Instructions, contexte du compte et choix de modèle/mode ; délai durable non documenté.\n— Mistral / Vibe : Custom Instructions persistantes ; instructions de Workspace/Projet ; pas de délai durable documenté.\n— DeepSeek : pas de profil persistant clairement documenté ; personnalisation surtout dans le prompt système/API.\n— Z.ai / GLM : personnalisation surtout côté agent/API : prompt système, outils, MCP et workflow.\n— Alibaba / Qwen : prompt, historique et choix de modèle/agent ; profil durable peu documenté.\n— Microsoft / Copilot : Memory, Custom Instructions et Notebook avec instructions dédiées ; vitesse dépend de l’activité/modèle.\n\nRepère : une instruction de profil cadre la façon de travailler ; elle ne transforme pas une information non vérifiée en fait fiable.\n\nRéférence : variable « Personnalisation utilisateur » du référentiel acteurs — état au 27/09/2026.",
+      "original": "SLIDE — COMPARATIF ACTEURS : PERSONNALISER LA PERSONNALITÉ ET LE PROFIL\n\nQuestion à poser : que peut-on rendre durable — ton, rôle, règles, mémoire, vitesse — avant même le prompt du jour ?\n\n— OpenAI / ChatGPT : mémoire, instructions personnalisées, personnalité, règles de projet ; choix modèle/vitesse/raisonnement selon offre.\n— Google / Gemini : instructions, historique, apps connectées et Gems ou skills selon le compte ; vitesse surtout pilotée par le modèle. Google prévoit une transition progressive des Gems vers les skills.\n— Anthropic / Claude : styles, préférences et instructions de projet ; réglages de modèle selon offre.\n— Meta / Meta AI : personnalisation via profil, mémoire et contexte Meta, avec un périmètre variable.\n— Perplexity : profil, préférences, Spaces et instructions de travail ; peu de réglages de délai durables.\n— xAI / Grok : Custom Instructions, contexte du compte et choix de modèle/mode ; délai durable non documenté.\n— Mistral / Vibe : Custom Instructions persistantes ; instructions de Workspace/Projet ; pas de délai durable documenté.\n— DeepSeek : pas de profil persistant clairement documenté ; personnalisation surtout dans le prompt système/API.\n— Z.ai / GLM : personnalisation surtout côté agent/API : prompt système, outils, MCP et workflow.\n— Alibaba / Qwen : prompt, historique et choix de modèle/agent ; profil durable peu documenté.\n— Microsoft / Copilot : Memory, Custom Instructions et Notebook avec instructions dédiées ; vitesse dépend de l’activité/modèle.\n\nRepère : une instruction de profil cadre la façon de travailler ; elle ne transforme pas une information non vérifiée en fait fiable.\n\nRéférence : variable « Personnalisation utilisateur » du référentiel acteurs — état initial au 27/09/2026 ; mise à jour ciblée du 19/10/2026, voir les sources.",
       "lesson": "Faire comprendre et retenir l’idée centrale : comparatif acteurs : personnaliser la personnalité et le profil.",
       "section": "Contexte et assistance",
       "sources": [
         {
           "label": "Référentiel acteurs · 27/09/2026",
           "url": "https://docs.google.com/spreadsheets/d/1PJWUS38QZp2q6FE8EFy-O116gihoouQjB5s5FMSZEEw/edit"
+        },
+        {
+          "label": "Google · transition progressive des Gems vers les skills · consulté le 19/10/2026",
+          "url": "https://support.google.com/gemini/answer/18560919?hl=en-yt"
         }
       ],
       "reference_date": "2026-09-27",
@@ -4668,13 +4672,25 @@
       "bottom": "",
       "source_title": "COMPARATIF ACTEURS : COMMENT CONSTRUIRE UN ASSISTANT SPÉCIALISÉ ?",
       "speaker": "Les fournisseurs donnent des noms différents à des éléments comparables. Pour s’y retrouver, séparez toujours l’assistant, les consignes, les documents et les outils auxquels il peut accéder.",
-      "original": "SLIDE — COMPARATIF ACTEURS : COMMENT CONSTRUIRE UN ASSISTANT SPÉCIALISÉ ?\n\nUn assistant spécialisé est un collègue numérique configuré pour une mission précise. On lui donne des consignes, parfois des documents de référence et, si nécessaire, des outils autorisés.\n\n— OpenAI / ChatGPT : un GPT est l’assistant configuré. Une skill est une procédure ou une capacité qu’il peut réutiliser.\n— Google / Gemini : un Gem est un assistant personnalisé avec des consignes réutilisables. Les fichiers, services connectés et outils disponibles dépendent du forfait.\n— Anthropic / Claude : un Project garde le contexte d’une mission. Une skill décrit une tâche à réutiliser.\n— Meta / Meta AI : les assistants et outils peuvent varier selon le produit ou le pays.\n— Perplexity, xAI, Mistral, DeepSeek, Z.ai, Qwen et Microsoft : les produits séparent aussi, à des degrés divers, le chat, les documents de contexte, les outils et les agents. Vérifiez toujours l’écran utilisé, le forfait et les droits accordés.\n\nRepère : l’assistant est le collègue numérique. Le connecteur est l’accès qu’on lui autorise vers un outil ou une source.\n\nChaque ligne de la matrice donne accès, via « Voir le guide », à la documentation officielle de son fournisseur.\n\nRéférence : variable « Assistant : nom & construction » du référentiel acteurs — état au 27/09/2026.",
+      "original": "SLIDE — COMPARATIF ACTEURS : COMMENT CONSTRUIRE UN ASSISTANT SPÉCIALISÉ ?\n\nUn assistant spécialisé est un collègue numérique configuré pour une mission précise. On lui donne des consignes, parfois des documents de référence et, si nécessaire, des outils autorisés.\n\n— OpenAI / ChatGPT : un GPT est l’assistant configuré. Une skill est une procédure ou une capacité qu’il peut réutiliser. En Enterprise, OpenAI prévoit une transition des GPT personnalisés vers des plugins ; calendrier et droits à vérifier.\n— Google / Gemini : un Gem est un assistant personnalisé. Une skill regroupe des instructions réutilisables. Google annonce la transition des Gems vers les skills : novembre 2026 pour les comptes personnels, mars 2027 pour Workspace professionnel et associatif, juin 2027 pour l’éducation. Google annonce une migration des Gems et des fichiers compatibles ; les fonctions disponibles dépendent du compte et du déploiement.\n— Anthropic / Claude : un Project garde le contexte d’une mission. Une skill décrit une tâche à réutiliser.\n— Meta / Meta AI : les assistants et outils peuvent varier selon le produit ou le pays.\n— Perplexity, xAI, Mistral, DeepSeek, Z.ai, Qwen et Microsoft : les produits séparent aussi, à des degrés divers, le chat, les documents de contexte, les outils et les agents. Vérifiez toujours l’écran utilisé, le forfait et les droits accordés.\n\nRepère : l’assistant est le collègue numérique. Le connecteur est l’accès qu’on lui autorise vers un outil ou une source.\n\nChaque ligne de la matrice donne accès, via « Voir le guide », à la documentation officielle de son fournisseur.\n\nRéférence : variable « Assistant : nom & construction » du référentiel acteurs — état initial au 27/09/2026 ; mises à jour ciblées du 19/10/2026, voir les sources.",
       "lesson": "Faire comprendre et retenir l’idée centrale : comparatif acteurs : comment construire un assistant spécialisé ?.",
       "section": "Contexte et assistance",
       "sources": [
         {
           "label": "Référentiel acteurs · 27/09/2026",
           "url": "https://docs.google.com/spreadsheets/d/1PJWUS38QZp2q6FE8EFy-O116gihoouQjB5s5FMSZEEw/edit"
+        },
+        {
+          "label": "OpenAI · transition Enterprise des GPT vers les plugins · 19/10/2026",
+          "url": "https://learn.chatgpt.com/docs/migrate-custom-gpts"
+        },
+        {
+          "label": "Google · skills Gemini · 19/10/2026",
+          "url": "https://support.google.com/gemini/answer/17094296?hl=en"
+        },
+        {
+          "label": "Google · transition progressive des Gems vers les skills · consulté le 19/10/2026",
+          "url": "https://support.google.com/gemini/answer/18560919?hl=en-yt"
         }
       ],
       "how_to_links": [
@@ -5001,13 +5017,21 @@
       "bottom": "",
       "source_title": "COMPARATIF ACTEURS : QU’EST-CE QU’UN « PROJET » ?",
       "speaker": "Un projet est le dossier de mission : conversations, fichiers, règles et décisions. Ce n’est pas automatiquement l’ouvrier spécialisé lui-même.",
-      "original": "SLIDE — COMPARATIF ACTEURS : QU’EST-CE QU’UN « PROJET » ?\n\nUn projet est le dossier de mission : conversations, fichiers, règles et décisions. Ce n’est pas automatiquement l’ouvrier spécialisé lui-même.\n\n— OpenAI / ChatGPT : Projects ; l’assistant/GPT ou les compétences sont mobilisés dans ce cadre selon la surface.\n— Google / Gemini : Notebooks ; les Gems ne s’appellent pas automatiquement par @ dans le Notebook.\n— Anthropic / Claude : Projects, qui rassemblent chats, instructions et connaissances.\n— Meta / Meta AI : espaces et contexte de travail selon l’offre ; concept de Project métier moins stabilisé.\n— Perplexity : Spaces, avec consignes et sources pour une recherche ou mission.\n— xAI / Grok : Personal/Team Workspace ; plutôt un périmètre de compte/équipe qu’un Project de mission.\n— Mistral / Vibe : Vibe Work Projects, avec chats, ton, instructions et fichiers partagés.\n— DeepSeek : pas de Project persistant comparable clairement documenté ; le projet est à construire dans l’application.\n— Z.ai / GLM : pas de Project utilisateur clairement documenté ; mémoire, données et orchestration restent à construire.\n— Alibaba / Qwen : pas de Workspace persistant Qwen Studio clairement documenté ; Qwen-Agent structure le projet côté application.\n— Microsoft / Copilot : Copilot Notebooks et Cowork Projects, avec chats, fichiers, pages, liens et notes.\n\nRepère : avant de chercher une commande @, vérifier si l’éditeur permet réellement d’appeler un assistant à l’intérieur de son espace projet.\n\nRéférence : variable « Projet : nom & rôle » du référentiel acteurs — état au 27/09/2026.",
+      "original": "SLIDE — COMPARATIF ACTEURS : QU’EST-CE QU’UN « PROJET » ?\n\nUn projet est le dossier de mission : conversations, fichiers, règles et décisions. Ce n’est pas automatiquement l’ouvrier spécialisé lui-même.\n\n— OpenAI / ChatGPT : Projects ; l’assistant/GPT ou les compétences sont mobilisés dans ce cadre selon la surface.\n— Google / Gemini : Notebooks ; les Gems ne s’appellent pas automatiquement par @ dans le Notebook. Les Gems évoluent progressivement vers des skills ; vérifier les fonctions disponibles dans Notebook.\n— Anthropic / Claude : Projects, qui rassemblent chats, instructions et connaissances. Une nouvelle version, en bêta pour certains utilisateurs, introduit des fils de travail parallèles ; disponibilité à vérifier.\n— Meta / Meta AI : espaces et contexte de travail selon l’offre ; concept de Project métier moins stabilisé.\n— Perplexity : Spaces, avec consignes et sources pour une recherche ou mission.\n— xAI / Grok : Personal/Team Workspace ; plutôt un périmètre de compte/équipe qu’un Project de mission.\n— Mistral / Vibe : Vibe Work Projects, avec chats, ton, instructions et fichiers partagés.\n— DeepSeek : pas de Project persistant comparable clairement documenté ; le projet est à construire dans l’application.\n— Z.ai / GLM : pas de Project utilisateur clairement documenté ; mémoire, données et orchestration restent à construire.\n— Alibaba / Qwen : pas de Workspace persistant Qwen Studio clairement documenté ; Qwen-Agent structure le projet côté application.\n— Microsoft / Copilot : Copilot Notebooks et Cowork Projects, avec chats, fichiers, pages, liens et notes.\n\nRepère : avant de chercher une commande @, vérifier si l’éditeur permet réellement d’appeler un assistant à l’intérieur de son espace projet.\n\nRéférence : variable « Projet : nom & rôle » du référentiel acteurs — état initial au 27/09/2026 ; mises à jour ciblées du 19/10/2026, voir les sources.",
       "lesson": "Faire comprendre et retenir l’idée centrale : comparatif acteurs : qu’est-ce qu’un « projet » ?.",
       "section": "Contexte et assistance",
       "sources": [
         {
           "label": "Référentiel acteurs · 27/09/2026",
           "url": "https://docs.google.com/spreadsheets/d/1PJWUS38QZp2q6FE8EFy-O116gihoouQjB5s5FMSZEEw/edit"
+        },
+        {
+          "label": "Anthropic · projets classiques et bêta · 19/10/2026",
+          "url": "https://support.claude.com/en/articles/9517075-what-are-projects"
+        },
+        {
+          "label": "Google · transition progressive des Gems vers les skills · consulté le 19/10/2026",
+          "url": "https://support.google.com/gemini/answer/18560919?hl=en-yt"
         }
       ],
       "how_to_links": [
@@ -5420,13 +5444,21 @@
       "bottom": "Avant d’agir : vérifiez les accès, le forfait et les demandes d’accord.",
       "source_title": "COMPARATIF ACTEURS : AGENTS INTÉGRÉS, TÂCHES ET DÉCLENCHEMENT",
       "speaker": "Chaque acteur propose plusieurs outils pour des tâches différentes : rechercher, organiser une mission, suivre un planning ou travailler sur du code. Les colonnes expliquent à quoi ils servent et ce qui peut limiter leur usage.",
-      "original": "SLIDE — COMPARATIF ACTEURS : AGENTS, TÂCHES ET OUTILS\n\nCette matrice explique en mots simples à quoi servent les principaux outils et ce qu’il faut vérifier avant de les utiliser.\n\n— OpenAI : les tâches planifiées envoient des rappels ou suivent un sujet; Work organise une mission avec ses échanges et ses fichiers; Codex aide à écrire, relire et corriger du code.\n— Google : Deep Research cherche des informations et rédige un rapport; Spark suit un programme ou un événement; les Actions programmées lancent un rappel ou une action.\n— Anthropic : Research prépare une étude; Cowork réalise une mission en plusieurs étapes sur des fichiers et services reliés; Claude Code intervient dans un projet logiciel.\n— Meta : Muse prépare une démarche, cherche des informations et peut aider avec les e-mails et l’agenda.\n— Perplexity : Computer mène une recherche, prépare des documents ou des fichiers et peut suivre une tâche en arrière-plan.\n— xAI : Grok Bot réalise des missions sur le Web et dans les fichiers reliés; les routines répètent certaines tâches; Grok Build aide à écrire ou corriger du code.\n— Mistral : Vibe Work prépare des recherches, documents et suivis planifiés; Vibe Code modifie et vérifie un projet logiciel.\n— DeepSeek : Harness réunit des outils de recherche, de fichiers et de code; DeepSeek Chat répond dans une conversation.\n— Z.ai / Zhipu : AutoGLM et AutoClaw visent les tâches en plusieurs étapes; ZCode aide à développer un logiciel.\n— Alibaba / Qwen : Qwen Code modifie un projet logiciel, peut confier des étapes à des assistants spécialisés et répéter des contrôles pendant une session.\n— Microsoft : Researcher cherche et résume; Analyst explore des données; Cowork réalise une mission dans Microsoft 365; Workflows répètent une action ou la lancent au bon moment.\n\nÀ vérifier : les outils disponibles selon le pays et le forfait, les fichiers et services auxquels ils ont accès, et les actions qui nécessitent votre accord. Une tâche répétée peut aussi s’arrêter quand l’application est fermée.\n\nRéférentiel initial : variable « Agents intégrés : offre & déclenchement ». Résumé simplifié et actualisé au 07/10/2026. Les liens officiels sont dans les notes de la diapositive.",
+      "original": "SLIDE — COMPARATIF ACTEURS : AGENTS, TÂCHES ET OUTILS\n\nCette matrice explique en mots simples à quoi servent les principaux outils et ce qu’il faut vérifier avant de les utiliser.\n\n— OpenAI : les tâches planifiées envoient des rappels ou suivent un sujet; Work organise une mission avec ses échanges et ses fichiers; Codex aide à écrire, relire et corriger du code. L’accès aux fichiers dépend du type de tâche et de l’environnement.\n— Google : Deep Research cherche des informations et rédige un rapport; Spark suit un programme ou un événement; les Actions programmées lancent un rappel ou une action.\n— Anthropic : Research prépare une étude; Cowork réalise une mission en plusieurs étapes sur des fichiers et services reliés; Claude Code intervient dans un projet logiciel. Certaines tâches récurrentes s’exécutent dans le cloud, selon le compte et l’environnement.\n— Meta : Muse prépare une démarche, cherche des informations et peut aider avec les e-mails et l’agenda.\n— Perplexity : Computer mène une recherche, prépare des documents ou des fichiers et peut suivre une tâche en arrière-plan.\n— xAI : Grok Bot réalise des missions sur le Web et dans les fichiers reliés; les routines répètent certaines tâches; Grok Build aide à écrire ou corriger du code.\n— Mistral : Vibe Work prépare des recherches, documents et suivis planifiés; Vibe Code modifie et vérifie un projet logiciel.\n— DeepSeek : Harness réunit des outils de recherche, de fichiers et de code; DeepSeek Chat répond dans une conversation.\n— Z.ai / Zhipu : AutoGLM et AutoClaw visent les tâches en plusieurs étapes; ZCode aide à développer un logiciel.\n— Alibaba / Qwen : Qwen Code modifie un projet logiciel, peut confier des étapes à des assistants spécialisés et répéter des contrôles pendant une session.\n— Microsoft : Researcher cherche et résume; Analyst explore des données; Cowork réalise une mission dans Microsoft 365; Workflows répètent une action ou la lancent au bon moment.\n\nÀ vérifier : les outils disponibles selon le pays et le forfait, les fichiers et services auxquels ils ont accès, et les actions qui nécessitent votre accord. Une tâche répétée peut aussi s’arrêter quand l’application est fermée.\n\nRéférentiel initial : variable « Agents intégrés : offre & déclenchement ». Résumé simplifié du 07/10/2026 ; mises à jour ciblées du 19/10/2026. Les liens officiels sont dans les notes de la diapositive.",
       "lesson": "Comparer les usages concrets : que peut lire et faire l’outil ? Est-il disponible pour votre compte et votre pays ? Quelles actions demandent votre accord ?",
       "section": "Les agents",
       "sources": [
         {
           "label": "Référentiel acteurs · synthèse au 07/10/2026",
           "url": "https://docs.google.com/spreadsheets/d/1PJWUS38QZp2q6FE8EFy-O116gihoouQjB5s5FMSZEEw/edit"
+        },
+        {
+          "label": "OpenAI · tâches programmées et environnement · 19/10/2026",
+          "url": "https://learn.chatgpt.com/docs/automations"
+        },
+        {
+          "label": "Anthropic · tâches récurrentes · 19/10/2026",
+          "url": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork"
         }
       ],
       "reference_date": "2026-10-07",
@@ -5780,7 +5812,10 @@
       "title": "POURQUOI LES PROJETS IA TOURNENT EN ROND",
       "image": "method-s093-iteration-loop.png",
       "image_alt": "Brouillons et corrections tournent autour d’un poste de travail, illustrant une boucle de retouches.",
-      "media_credit": {"source": "Image générée par ImageGen pour S093 — boucle de corrections", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S093 — boucle de corrections",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "chain",
@@ -5828,7 +5863,10 @@
       "title": "ON NE CONSTRUIT PAS SANS PLAN",
       "image": "method-s094-plan.png",
       "image_alt": "Plan, règle et outils de dessin sur un bureau, illustrant la préparation avant construction.",
-      "media_credit": {"source": "Image générée par ImageGen pour S094 — plan de projet", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S094 — plan de projet",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "grid",
@@ -5876,7 +5914,10 @@
       "title": "DEUX RÔLES COMPLÉMENTAIRES POUR L'IA",
       "image": "method-s095-roles.png",
       "image_alt": "Deux espaces de travail reliés par un dossier, l’un consacré aux questions et l’autre à la construction.",
-      "media_credit": {"source": "Image générée par ImageGen pour S095 — rôles complémentaires", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S095 — rôles complémentaires",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "roles",
@@ -5937,7 +5978,10 @@
       "title": "NOTRE EXEMPLE : UN SUIVI COMMERCIAL",
       "image": "method-s096-sales.png",
       "image_alt": "Trois dossiers de données convergent vers un tableau de bord commercial sur ordinateur.",
-      "media_credit": {"source": "Image générée par ImageGen pour S096 — suivi commercial", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S096 — suivi commercial",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "quote",
@@ -5980,7 +6024,10 @@
       "title": "FAITES-VOUS QUESTIONNER PAR L'ASSISTANT IA",
       "image": "method-s097-questions.png",
       "image_alt": "Des cartes de questions émergent d’une demande vers un ordinateur, illustrant la clarification du besoin.",
-      "media_credit": {"source": "Image générée par ImageGen pour S097 — questions de clarification", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S097 — questions de clarification",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "prompt",
@@ -6023,7 +6070,10 @@
       "title": "QUELLES SONT LES DONNÉES D'ENTRÉE ?",
       "image": "method-s098-input-data.png",
       "image_alt": "Jeu de fichiers de données, loupe et support de rangement illustrant la vérification des données d’entrée.",
-      "media_credit": {"source": "Image générée par ImageGen pour S098 — données d’entrée", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S098 — données d’entrée",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "grid",
@@ -6072,7 +6122,10 @@
       "title": "QUEL RÉSULTAT DOIT-ON OBTENIR ?",
       "image": "method-s099-outcome.png",
       "image_alt": "Tableau de bord commercial avec cible et indicateur de validation, illustrant un résultat attendu vérifiable.",
-      "media_credit": {"source": "Image générée par ImageGen pour S099 — résultat attendu", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S099 — résultat attendu",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "grid",
@@ -6120,7 +6173,10 @@
       "title": "QUELLES CONTRAINTES RESPECTER ?",
       "image": "method-s100-constraints.png",
       "image_alt": "Dossier verrouillé, carte d’accès et symbole de protection, illustrant les contraintes de sécurité et d’autorisation.",
-      "media_credit": {"source": "Image générée par ImageGen pour S100 — contraintes du projet", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S100 — contraintes du projet",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "grid",
@@ -6170,7 +6226,10 @@
       "title": "CENTRALISEZ LE TRAVAIL PRÉPARATOIRE",
       "image": "method-s101-centralize.png",
       "image_alt": "Boîte de projet ordonnée qui rassemble dossiers, documents, cartes de décision et question ouverte.",
-      "media_credit": {"source": "Image générée par ImageGen pour S101 — centralisation du travail", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S101 — centralisation du travail",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "chain",
@@ -6219,7 +6278,10 @@
       "title": "VÉRIFIEZ LES INCERTITUDES IMPORTANTES",
       "image": "method-s102-prototype.png",
       "image_alt": "Petit essai sur ordinateur avec loupe, échantillon et validation, illustrant un prototype ciblé.",
-      "media_credit": {"source": "Image générée par ImageGen pour S102 — prototype de vérification", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S102 — prototype de vérification",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "chain",
@@ -6266,7 +6328,10 @@
       "title": "TRANSFORMEZ LES ÉCHANGES EN DOCUMENTS DE RÉFÉRENCE",
       "image": "method-s103-documents.png",
       "image_alt": "Dossier de référence structuré, notes sources et marque de validation.",
-      "media_credit": {"source": "Image générée par ImageGen pour S103 — document de référence", "kind": "GEN"},
+      "media_credit": {
+        "source": "Image générée par ImageGen pour S103 — document de référence",
+        "kind": "GEN"
+      },
       "section": "Méthode de projet",
       "method": {
         "variant": "grid",
@@ -6983,12 +7048,12 @@
         "Apps/connecteurs dans ChatGPT. Mise en place : l’utilisateur ou l’admin relie l’app et consent aux scopes. Usage : ChatGPT peut lire ou agir seulement dans le périmètre autorisé par l’app et la politique Workspace. Implication : contrôler les apps approuvées, les données transmises et les actions possibles.",
         "Plateforme très intégrée ; vidéo à ne pas présenter comme une sortie ChatGPT disponible à cette date.",
         "✅ Profil durable : Memory + Custom Instructions (rôle, ton, format) + personnalité.\n✅ Par projet : instructions/fichiers ; Custom GPTs.\n✅ Rapidité/raisonnement : Instant → Extra High selon plan ; réglage d’usage, pas un délai/SLA.",
-        "Custom GPT = assistant configuré : instructions, connaissances, capacités ; Apps ou Actions, mais pas les deux.\nSkill = workflow réutilisable (instructions, exemples, code) que ChatGPT peut activer.\nPlugin = paquet qui peut contenir skills, apps et modèles d’app ; App = accès aux données/actions externes.\n↗ Workspace agent : assistant métier partagé, Business/Enterprise.",
+        "Custom GPT = assistant configuré : instructions, connaissances, capacités ; Apps ou Actions, mais pas les deux.\n↗ En Enterprise, transition prévue des GPT personnalisés vers des plugins ; calendrier et droits à vérifier.\nSkill = workflow réutilisable (instructions, exemples, code) que ChatGPT peut activer.\nPlugin = paquet qui peut contenir skills, apps et modèles d’app ; App = accès aux données/actions externes.\n↗ Workspace agent : assistant métier partagé, Business/Enterprise.",
         "Nom : ChatGPT Projects.\nRôle : espace de mission durable et partageable ; il réunit chats, fichiers et instructions du projet.\nLe Custom GPT / Skill / App reste un assistant ou une capacité distincte ; le Project fournit le contexte commun.\nAppel : dans une conversation déjà présente dans le Project, utiliser le Custom GPT pour les messages. Si le premier message ouvre ce GPT, la conversation démarre hors du Project.\n— Pas de commande `@` officielle ni d’orchestration automatique d’une équipe de GPTs documentées ici.",
         "✅ Texte : réponses, synthèses et rapports ; tableaux et graphiques issus de l’analyse de données ; images.\n✅ Dans ChatGPT Work : documents, feuilles de calcul, présentations, PDF et Sites — dans Google Workspace ou les formats Office, selon les apps autorisées.\n— Vidéo native ChatGPT non annoncée dans le périmètre actuel (Sora est à traiter séparément).",
-        "✅ Tâches planifiées : rappels et suivis. Work : dossiers de mission, échanges et fichiers. Codex : aide à écrire, relire et corriger du code dans un projet logiciel.\nÀ savoir : les tâches planifiées ne lisent pas les fichiers d’un projet; les accès de Work et Codex dépendent du compte.",
+        "✅ Tâches planifiées : rappels et suivis. Work : dossiers de mission, échanges et fichiers. Codex : aide à écrire, relire et corriger du code dans un projet logiciel.\nÀ savoir : l’accès aux fichiers dépend du type de tâche, du produit, du compte et de l’environnement ; une tâche locale programmée peut utiliser les fichiers d’un projet configuré.",
         "07/10/2026",
-        "https://help.openai.com/en/articles/12677804\nhttps://help.openai.com/en/articles/11084440\nhttps://help.openai.com/en/articles/20001152\nhttps://help.openai.com/en/articles/8096356-chatgpt-custom-instructions\nhttps://help.openai.com/en/articles/20001066-skills-in-chatgpt\nhttps://help.openai.com/en/articles/11487775-connectors-in-chatgpt\nhttps://help.openai.com/en/articles/9442513-configuring-actions-in-gpts\nhttps://help.openai.com/en/articles/10169521-projects-in-chatgpt\nhttps://help.openai.com/en/articles/11752874-chatgpt-agent\nhttps://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt\nhttps://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\nhttps://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business\nhttps://help.openai.com/en/articles/20001278-creating-and-editing-documents-spreadsheets-and-presentations-with-chatgpt-work\nhttps://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt"
+        "https://help.openai.com/en/articles/12677804\nhttps://help.openai.com/en/articles/11084440\nhttps://help.openai.com/en/articles/20001152\nhttps://help.openai.com/en/articles/8096356-chatgpt-custom-instructions\nhttps://help.openai.com/en/articles/20001066-skills-in-chatgpt\nhttps://help.openai.com/en/articles/11487775-connectors-in-chatgpt\nhttps://help.openai.com/en/articles/9442513-configuring-actions-in-gpts\nhttps://help.openai.com/en/articles/10169521-projects-in-chatgpt\nhttps://help.openai.com/en/articles/11752874-chatgpt-agent\nhttps://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt\nhttps://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\nhttps://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business\nhttps://help.openai.com/en/articles/20001278-creating-and-editing-documents-spreadsheets-and-presentations-with-chatgpt-work\nhttps://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt\nhttps://learn.chatgpt.com/docs/migrate-custom-gpts\nhttps://learn.chatgpt.com/docs/automations"
       ],
       [
         "Google",
@@ -7001,13 +7066,13 @@
         "✅ Gemini Live ; audio de vidéo selon modèle/plan. — Pas de musique/SFX séparés confirmés ici",
         "Connected Apps et Google Workspace. Mise en place : connexion au compte Google, consentement et éventuelles règles admin. Usage : Gemini exploite Drive, Gmail, Calendar et autres sources dans les droits existants. Implication : le connecteur ne contourne pas les ACL ; le paramétrage organisationnel reste décisif.",
         "Suite très intégrée ; le bouquet exact dépend fortement du forfait et du pays.",
-        "✅ Instructions Gemini et personnalisation par historique/apps connectées (opt-in).\n✅ Gems : rôle, ton et format réutilisables.\n✅ Rapidité : choix du modèle (Flash / Thinking / Pro selon offre) ; pas de curseur de délai durable documenté.",
-        "Gem = assistant configuré : nom + instructions, prévisualisation puis sauvegarde.\nConnected Apps = connexions vers les services du compte ; ce ne sont pas des Gems.\n— Pas de « plugin » équivalent clairement présenté dans Gemini Apps grand public.\n↗ Gemini Enterprise : agents/connecteurs, couche entreprise distincte.",
-        "Nom : Gemini Notebooks.\nRôle : espace focalisé pour organiser un projet ; conversation continue qui retient sources, instructions et échanges en cours.\nLe Gem est l’assistant spécialisé ; le Notebook est le dossier de mission.\nAppel : ouvrir le Gem depuis la barre latérale > Gems > sélectionner le Gem, puis lancer sa conversation. Les docs ne décrivent pas d’appel `@Gem` depuis un Notebook.\n— Pas d’orchestration automatique de plusieurs Gems dans un Notebook documentée ici.",
+        "✅ Instructions Gemini et personnalisation par historique/apps connectées (opt-in).\n✅ Gems : rôle, ton et format réutilisables.\n✅ Rapidité : choix du modèle (Flash / Thinking / Pro selon offre) ; pas de curseur de délai durable documenté.\n↗ Google annonce la transition des Gems vers les skills : novembre 2026 pour les comptes personnels, mars 2027 pour Workspace professionnel et associatif, juin 2027 pour l’éducation.",
+        "Gem = assistant configuré : nom + instructions, prévisualisation puis sauvegarde.\nSkills = instructions réutilisables dans des conversations ou tâches, selon disponibilité.\nConnected Apps = connexions vers les services du compte ; ce ne sont pas des Gems.\n— Pas de « plugin » équivalent clairement présenté dans Gemini Apps grand public.\n↗ Gemini Enterprise : agents/connecteurs, couche entreprise distincte.\n↗ Google annonce la transition des Gems vers les skills : novembre 2026 pour les comptes personnels, mars 2027 pour Workspace professionnel et associatif, juin 2027 pour l’éducation. Migration annoncée des Gems et fichiers compatibles ; vérifier les fonctions disponibles.",
+        "Nom : Gemini Notebooks.\nRôle : espace focalisé pour organiser un projet ; conversation continue qui retient sources, instructions et échanges en cours.\nLe Gem est l’assistant spécialisé ; le Notebook est le dossier de mission.\nAppel : ouvrir le Gem depuis la barre latérale > Gems > sélectionner le Gem, puis lancer sa conversation. Les docs ne décrivent pas d’appel `@Gem` depuis un Notebook.\n— Pas d’orchestration automatique de plusieurs Gems dans un Notebook documentée ici.\n↗ Les Gems sont progressivement remplacés par des skills ; vérifier séparément leur disponibilité dans Notebook.",
         "✅ Gemini Apps : texte, images, vidéo et réponses vocales, selon plan.\n✅ Gemini Notebook : rapports, tableaux exportables vers Sheets, mind maps, flashcards, quiz, infographies, slide decks/PDF, résumés audio et vidéo.\n↗ Canvas : documents, code et mini-apps selon offre ; à distinguer des artefacts du Notebook.",
         "✅ Deep Research cherche des informations et rédige un rapport. Spark suit une consigne ou un événement. Les Actions programmées lancent un rappel ou une action.\nÀ savoir : Spark n’est pas disponible dans l’EEE; les autres fonctions dépendent du compte et du forfait.",
         "07/10/2026",
-        "https://gemini.google.com/veo\nhttps://support.google.com/gemini/answer/16126339\nhttps://support.google.com/googleone/answer/16286513\nhttps://support.google.com/gemini/answer/16598625\nhttps://support.google.com/gemini/answer/15235603\nhttps://support.google.com/gemini/answer/13695044\nhttps://support.google.com/gemini/answer/16972047\nhttps://support.google.com/gemini/answer/15146780\nhttps://support.google.com/gemini/answer/15719111\nhttps://support.google.com/gemini/answer/16316416\nhttps://support.google.com/gemini/answer/17094507\nhttps://support.google.com/gemininotebook/answer/16206563\nhttps://support.google.com/gemininotebook/answer/16757456\nhttps://support.google.com/gemininotebook/answer/16958963"
+        "https://gemini.google.com/veo\nhttps://support.google.com/gemini/answer/16126339\nhttps://support.google.com/googleone/answer/16286513\nhttps://support.google.com/gemini/answer/16598625\nhttps://support.google.com/gemini/answer/15235603\nhttps://support.google.com/gemini/answer/13695044\nhttps://support.google.com/gemini/answer/16972047\nhttps://support.google.com/gemini/answer/15146780\nhttps://support.google.com/gemini/answer/15719111\nhttps://support.google.com/gemini/answer/16316416\nhttps://support.google.com/gemini/answer/17094507\nhttps://support.google.com/gemininotebook/answer/16206563\nhttps://support.google.com/gemininotebook/answer/16757456\nhttps://support.google.com/gemininotebook/answer/16958963\nhttps://support.google.com/gemini/answer/17094296?hl=en\nhttps://support.google.com/gemini/answer/18560919?hl=en-yt"
       ],
       [
         "Anthropic",
@@ -7022,11 +7087,11 @@
         "Excellent contre-exemple : riche en recherche, fichiers et connecteurs, mais sans sortie image/vidéo native.",
         "✅ Profil : instructions + mémoire ; styles/skills pour le ton et le format.\n✅ Projet : instructions et connaissances propres.\n✅ Rapidité : modèle, Thinking et effort par usage/plan ; pas de préférence globale de délai documentée.",
         "Project = assistant / espace de travail : instructions, base de connaissances et chats dédiés.\nSkills = savoir-faire réutilisables ; les Styles migrent vers eux. Ce n’est pas, à lui seul, un assistant autonome.\nArtifact = application ou outil partageable, pas le profil de l’assistant.\n↗ Claude Code possède ses propres agents côté développement.",
-        "Nom : Claude Projects.\nRôle : espace autonome avec historique, base de connaissances, documents et instructions propres au projet.\nLes instructions s’appliquent aux chats de ce Project ; Skills et Artifacts sont des briques distinctes.\nAppel : dans le Project, on parle à Claude ; aucun sélecteur ou `@` permettant d’appeler plusieurs assistants spécialisés n’est documenté. Les Skills se gèrent dans Customize > Skills.\n— Le Project est un cadre de travail, pas un chef d’équipe d’assistants documenté.",
+        "Nom : Claude Projects.\nRôle : espace autonome avec historique, base de connaissances, documents et instructions propres au projet.\nLes instructions s’appliquent aux chats de ce Project ; Skills et Artifacts sont des briques distinctes.\nDans le Project classique, on parle à Claude ; aucun sélecteur ou `@` permettant d’appeler plusieurs assistants spécialisés n’est documenté ici. Les Skills se gèrent dans Customize > Skills.\n↗ Une nouvelle version des projets, en bêta pour certains utilisateurs, introduit des fils de travail parallèles ; disponibilité à vérifier.",
         "✅ Texte, analyse et code ; Artifacts interactifs (pages, petites applications, designs) ; Claude Docs et Slides.\n✅ Fichiers téléchargeables : Word (.docx), Excel (.xlsx, formules et graphiques), PowerPoint (.pptx) et PDF ; export HTML/ZIP selon l’artefact.\n— Pas de génération native d’images ou de vidéos documentée dans l’interface Claude.",
-        "✅ Research prépare une étude. Cowork réalise une mission sur des fichiers et services reliés. Claude Code travaille sur un projet logiciel.\nÀ savoir : les fichiers et services accessibles dépendent des autorisations; Claude Code est conçu pour le développement.",
+        "✅ Research prépare une étude. Cowork réalise une mission sur des fichiers et services reliés. Claude Code travaille sur un projet logiciel.\nÀ savoir : les fichiers et services accessibles dépendent des autorisations ; Claude Code est conçu pour le développement. Certaines tâches récurrentes s’exécutent dans le cloud ; les ressources accessibles dépendent du compte et de l’environnement.",
         "07/10/2026",
-        "https://support.anthropic.com/en/articles/10684626-enabling-and-using-web-search\nhttps://support.anthropic.com/en/articles/9002504-can-claude-produce-images\nhttps://support.anthropic.com/en/articles/11101966-using-voice-mode-on-claude-mobile-apps\nhttps://support.anthropic.com/en/articles/10185728-understanding-claude-s-personalization-features\nhttps://support.anthropic.com/en/articles/9517075-what-are-projects\nhttps://support.anthropic.com/en/articles/10181068-configuring-and-using-styles\nhttps://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude\nhttps://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork\nhttps://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude\nhttps://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them\nhttps://support.claude.com/en/articles/16923645-get-started-with-claude-docs"
+        "https://support.anthropic.com/en/articles/10684626-enabling-and-using-web-search\nhttps://support.anthropic.com/en/articles/9002504-can-claude-produce-images\nhttps://support.anthropic.com/en/articles/11101966-using-voice-mode-on-claude-mobile-apps\nhttps://support.anthropic.com/en/articles/10185728-understanding-claude-s-personalization-features\nhttps://support.anthropic.com/en/articles/9517075-what-are-projects\nhttps://support.anthropic.com/en/articles/10181068-configuring-and-using-styles\nhttps://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude\nhttps://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork\nhttps://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude\nhttps://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them\nhttps://support.claude.com/en/articles/16923645-get-started-with-claude-docs\nhttps://support.claude.com/en/articles/9517075-what-are-projects"
       ],
       [
         "Meta",
